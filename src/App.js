@@ -8,11 +8,12 @@ import DarkModeComponent from './componentExample/DarkModeComponent';
 import EventListenerComponent from './componentExample/EventListenerComponent';
 import MediaQueryComponent from './componentExample/MediaQueryComponent';
 import StorageComponent from './componentExample/StorageComponent';
+import TimeoutComponent from './componentExample/TimeoutComponent';
 
 function App() {
   return (
     <div className="App">
-      <DarkModeComponent/>
+      <TimeoutComponent/>
     </div>
   );
 }
